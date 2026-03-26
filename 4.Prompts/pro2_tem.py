@@ -3,6 +3,8 @@ from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 import streamlit as st
 from langchain_core.prompts import PromptTemplate
+import os
+api_key = os.getenv("HUGGINGFACE_API_KEY")
 
 load_dotenv()
 
