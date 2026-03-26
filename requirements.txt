@@ -30,3 +30,9 @@ scikit-learn
 # create a new virtual environment 
 #  python -m venv venv(any name)
 #  venv\Scripts\Activate       activate venv  
+streamlit
+langchain
+langchain-groq
+python-dotenv
+chromadb
+sentence-transformers
